@@ -1,0 +1,128 @@
+
+html[data-theme='light'] {
+    --bg: #f0edfd;
+    --bg-header: #fff;
+    --bg-header-border: #ddd9ef;
+    --bg-header-jn-border: #ddd9ef;
+    --bg-header-color: #000;
+    --bg-card: white;
+    --bg-card-body-top: #f9f9f9;
+    --bg-card-body-button: white;
+
+}
+
+html[data-theme='dark'] {
+    --bg: #1e0830;
+    --bg-header: #0f001b;
+    --bg-header-border: #411267;
+    --bg-header-jn-border: #411267;
+    --bg-header-color: #fff;
+    --bg-card: #bdaae8;
+    --bg-card-body-top: rgba(255,231,255,1);
+    --bg-card-body-button: rgba(190,171,232,1);
+}
+
+html{
+    --bg-title-number: #ddd9ef; 
+}
+
+body {
+    background-color: var(--bg);
+}
+
+#header {
+    border-bottom: 3px solid  var(--bg-header-border); 
+    background-color: var(--bg-header);
+    color: var(--bg-header-color);
+}
+
+.header-jn {
+    border-bottom: 1px solid var(--bg-header-jn-border);
+    display: flex;
+    align-items: baseline;
+}
+
+.header-jn ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+input[type=checkbox]{
+	height: 0;
+	width: 0;
+	visibility: hidden;
+}
+
+label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 60px;
+	height: 30px;
+	background: black;
+	display: block;
+	border-radius: 30px;
+	position: relative;
+}
+
+label:after {
+	content: '';
+	position: absolute;
+	top: 5px;
+	left: 5px;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+input:checked + label {
+	background: grey;
+}
+
+input:checked + label:after {
+	left: calc(100% - 4px);
+	transform: translateX(-100%);
+}
+
+label:active:after {
+	width: 60px;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+
+.title-number{
+    background-color: var(--bg-title-number);
+    width: 20%;
+    text-align: center;
+    border-bottom-right-radius: 5px;
+}
+
+.card {
+    background-color: var(--bg-card);
+}
+
+.card-body{
+    background: linear-gradient(0deg, var(--bg-card-body-button) 0%, var(--bg-card-body-top) 100%);
+    /* background: linear-gradient(0deg, rgba(190,171,232,1) 0%, rgba(255,231,255,1) 100%); */
+}
+
+.li-flex{
+    display: flex;
+}
+
+.img-header-types{
+    margin: 0 10px;
+}
+
+.img-header-logo{
+    margin: 0 auto
+}
