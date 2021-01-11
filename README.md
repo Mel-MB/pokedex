@@ -17,6 +17,7 @@ Projet réalisé à 14 sur la partie interface graphique.
 S'initier au language pour s'approprier Bootstap et le faire correspondre au besoins du site (présent dans le fichier de base produit à 14) ou s'en débarrasser complètement pour optimiser le poids du site web **#écoconception**
 
 ## POO en Typscript
+Partie réalisée seule 
 - #### Comprendre et appliquer les 4 pilliers de la POO
 En créant, par le biais de class une battle de pokemon (en utilisant le débugger dans un premier temps).
 - ####  Créer une interraction avec une UI.
