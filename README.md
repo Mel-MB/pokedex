@@ -1,27 +1,29 @@
 # Pokedex
 
-C'est Noël et pour l'occasion le Pokedex a prévu une grande mise à jour ! 
+Un projet web  basé sur Sass et la POO en Typescript compilé via webpack pour mobiliser les compétences aquises en fomation:
 
-Lien du site en ligne : https://pokedex-k5.netlify.app/
+## Git & GitHub
+Projet réalisé à 14 sur la partie interface graphique.
+- #### Résolution des tickets
+  - Se partager et résoudre les différents tickets 
+  - s'attribuer le ticket que vous souhaitez résoudre
+  - Résoudre le ticket dans une branche personnelle
+  - Faire une pull request auprès d'un collègue
+  - Merger avec l'existant
+- #### Proposer des nouveaux tickets
+  - Description et classification de la tache à réaliser
 
-### Résolution des tickets
+## Sass
+S'initier au language pour s'approprier Bootstap et le faire correspondre au besoins du site (présent dans le fichier de base produit à 14) ou s'en débarrasser complètement pour optimiser le poids du site web **#écoconception**
 
-La première étape est de se partager et de résoudre les différents tickets (onglet issues).
+## POO en Typscript
+- #### Comprendre et appliquer les 4 pilliers de la POO
+En créant, par le biais de class une battle de pokemon (en utilisant le débugger dans un premier temps).
+- ####  Créer une interraction avec une UI.
+**WORK IN PROGRESS**
 
-Pour ce faire vous devez :
-
-- Vous attribuer le ticket que vous souhaitez résoudre
-- Résoudre le ticket dans une branche que vous nommez comme ceci : `#id-feature-name``
-- Faire une pull request auprès d'un de vos collègue
-- Merger avec l'existant 
-
-
-### Proposer des nouveaux tickets
-
-Vous pouvez également proposer des nouveaux tickets au reste de l'équipe en ouvrant une issues !
-Si le reste de l'équipe est ok, alors vous pouvez vous l'assigner afin de le résoudre !
-
-
+## Webpack
+Apprendre à configurer webpack pour compiler et minifier le tout !
 
 
 
