@@ -1,0 +1,23 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Move_1 = require("./Move");
+const Pokemon_1 = require("./Pokemon");
+const Battle_1 = require("./Battle");
+const thunderShock = new Move_1.Attack("Eclair", 40, "Electric");
+const quickAttack = new Move_1.Attack("Attaque éclair", 40, "Normal");
+const potion = new Move_1.Heal("Potion", 35);
+const sweetKiss = new Move_1.Stun("Doux Baiser", 1);
+const vineWhip = new Move_1.Attack("Fouet Lianes", 45, "Grass");
+const tackle = new Move_1.Attack("Charge", 40, "Normal");
+const growl = new Move_1.Protection("Rugissement", 1);
+var pikachu = new Pokemon_1.Pokemon("Pikachu", "Electric", [thunderShock, quickAttack, sweetKiss, potion]);
+var bulbasaur = new Pokemon_1.Pokemon("Bulbizarre", "Grass", [vineWhip, tackle, growl, potion]);
+let battle1 = new Battle_1.Battle(pikachu, bulbasaur);
+battle1.throws(quickAttack);
+battle1.throws(potion);
+battle1.throws(sweetKiss);
+battle1.throws(quickAttack);
+battle1.throws(growl);
+battle1.throws(thunderShock);
+battle1.throws(vineWhip);
+//# sourceMappingURL=index.js.map

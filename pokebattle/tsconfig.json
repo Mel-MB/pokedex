@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        //"watch": true, //makes the Degugger mode bug 
+        "outDir": "out",
+        "sourceMap": true //pour avoir les points d'arrets en mode debug sur un langage compilé
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
